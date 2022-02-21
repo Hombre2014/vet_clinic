@@ -11,6 +11,7 @@ In this project you will use a relational database to create the initial data st
 ## Requirements:
 
 ### Phase 1, create animals table
+
 - [ ] Use [this template](https://github.com/microverseinc/curriculum-template-databases) to generate your repo.
 - [ ] Create a database named `vet_clinic`.
 - [ ] Create a table named `animals` with the following columns:
@@ -36,6 +37,7 @@ In this project you will use a relational database to create the initial data st
   - [ ] Find all animals that are neutered.
   - [ ] Find all animals not named Gabumon.
   - [ ] Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
+- [ ] Copy the SQL you used in the previous point into the `queries.sql` file in the generated repository.
 
 ## Built With
 
