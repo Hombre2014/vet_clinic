@@ -1,4 +1,5 @@
-/* Database schema to keep the structure of entire database. */
+-- Phase 1 create animals table
+
 CREATE TABLE animals (
   id INT GENERATED ALWAYS AS IDENTITY,
   name VARCHAR(100),
@@ -7,3 +8,7 @@ CREATE TABLE animals (
   neutered boolean,
   weight_kg DECIMAL
 );
+
+-- Phase 2 update animals table
+
+ALTER TABLE animals ADD species VARCHAR(50);

@@ -1,4 +1,4 @@
-/*Queries that provide answers to the questions from all projects.*/
+-- Phase 1 create animals table
 
 -- Find all animals whose name ends in "mon".
 SELECT * from animals WHERE name LIKE '%mon';
@@ -23,3 +23,59 @@ SELECT * FROM animals WHERE name!='Gabumon';
 
 -- Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
 SELECT * FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
+
+-- Phase 2 update animals table
+
+BEGIN;
+UPDATE animals SET species='unspecified';
+ROLLBACK;
+-- Check that the changes have been made
+SELECT * FROM animals;
+-- Rollback the changes
+COMMIT;
+
+-- Updates
+BEGIN;
+UPDATE animals SET species='digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species='pokemon' WHERE species IS NULL;
+COMMIT;
+
+-- Check that the changes have been made
+SELECT * FROM animals;
+
+BEGIN;
+DELETE FROM animals;
+ROLLBACK;
+COMMIT;
+
+-- Check that the changes have been made
+SELECT * FROM animals;
+
+-- Updates
+
+BEGIN;
+DELETE FROM animals WHERE date_of_birth > '01-01-2022';
+SAVEPOINT delete_this_year_born;
+UPDATE animals SET weight_kg=(weight_kg * -1);
+ROLLBACK TO delete_this_year_born;
+UPDATE animals SET weight_kg=weight_kg * -1 WHERE weight_kg < 0;
+COMMIT;
+
+-- How many animals are there?
+SELECT COUNT(*) FROM animals;
+
+-- How many animals have never tried to escape?
+SELECT COUNT(escape_attempts) FROM animals WHERE escape_attempts=0;
+
+-- What is the average weight of animals?
+SELECT AVG(weight_kg) FROM animals;
+
+-- Who escapes the most, neutered or not neutered animals?
+SELECT * FROM animals;
+SELECT MAX(escape_attempts) FROM animals;
+
+-- What is the minimum and maximum weight of each type of animal?
+SELECT species, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY species;
+
+-- What is the average number of escape attempts per animal type of those born between 1990 and 2000?
+SELECT DISTINCT species, AVG(escape_attempts) AS avg_esc_att FROM animals GROUP BY species, date_of_birth HAVING date_of_birth BETWEEN '1990-01-01' AND '2000-12-31';
