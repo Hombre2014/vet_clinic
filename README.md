@@ -12,32 +12,36 @@ In this project you will use a relational database to create the initial data st
 
 ### Phase 1, create animals table
 
-- [ ] Use [this template](https://github.com/microverseinc/curriculum-template-databases) to generate your repo.
-- [ ] Create a database named `vet_clinic`.
-- [ ] Create a table named `animals` with the following columns:
-  - [ ] `id`: integer
-  - [ ] `name`: string
-  - [ ] `date_of_birth`: date
-  - [ ] `escape_attempts`: integer
-  - [ ] `neutered`: boolean
-  - [ ] `weight_kg`: decimal
-- [ ] Copy the SQL you used in the previous point into the `schema.sql` file in the generated repository.
-- [ ] Insert the following data:
-  - [ ] Animal: His name is Agumon. He was born on Feb 3rd, 2020, and currently weighs 10.23kg. He was neutered and he has never tried to escape.
-  - [ ] Animal: Her name is Gabumon. She was born on Nov 15th, 2018, and currently weighs 8kg. She is neutered and she has tried to escape 2 times.
-  - [ ] Animal: His name is Pikachu. He was born on Jan 7th, 2021, and currently weighs 15.04kg. He was not neutered and he has tried to escape once.
-  - [ ] Animal: Her name is Devimon. She was born on May 12th, 2017, and currently weighs 11kg. She is neutered and she has tried to escape 5 times.
-- [ ] Copy the SQL you used in the previous point into the data.sql file in the generated repository.
-- [ ] Write queries for the following:
-  - [ ] Find all animals whose name ends in "mon".
-  - [ ] List the name of all animals born between 2016 and 2019.
-  - [ ] List the name of all animals that are neutered and have less than 3 escape attempts.
-  - [ ] List date of birth of all animals named either "Agumon" or "Pikachu".
-  - [ ] List name and escape attempts of animals that weigh more than 10.5kg
-  - [ ] Find all animals that are neutered.
-  - [ ] Find all animals not named Gabumon.
-  - [ ] Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
-- [ ] Copy the SQL you used in the previous point into the `queries.sql` file in the generated repository.
+- [x] Use [this template](https://github.com/microverseinc/curriculum-template-databases) to generate your repo.
+- [x] Create a database named `vet_clinic`.
+- [x] Create a table named `animals` with the following columns:
+  - [x] `id`: integer
+  - [x] `name`: string
+  - [x] `date_of_birth`: date
+  - [x] `escape_attempts`: integer
+  - [x] `neutered`: boolean
+  - [x] `weight_kg`: decimal
+- [x] Copy the SQL you used in the previous point into the `schema.sql` file in the generated repository.
+- [x] Insert the following data:
+  - [x] Animal: His name is Agumon. He was born on Feb 3rd, 2020, and currently weighs 10.23kg. He was neutered and he has never tried to escape.
+  - [x] Animal: Her name is Gabumon. She was born on Nov 15th, 2018, and currently weighs 8kg. She is neutered and she has tried to escape 2 times.
+  - [x] Animal: His name is Pikachu. He was born on Jan 7th, 2021, and currently weighs 15.04kg. He was not neutered and he has tried to escape once.
+  - [x] Animal: Her name is Devimon. She was born on May 12th, 2017, and currently weighs 11kg. She is neutered and she has tried to escape 5 times.
+- [x] Copy the SQL you used in the previous point into the data.sql file in the generated repository.
+- [x] Write queries for the following:
+  - [x] Find all animals whose name ends in "mon".
+  - [x] List the name of all animals born between 2016 and 2019.
+  - [x] List the name of all animals that are neutered and have less than 3 escape attempts.
+  - [x] List date of birth of all animals named either "Agumon" or "Pikachu".
+  - [x] List name and escape attempts of animals that weigh more than 10.5kg
+  - [x] Find all animals that are neutered.
+  - [x] Find all animals not named Gabumon.
+  - [x] Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
+- [x] Copy the SQL you used in the previous point into the `queries.sql` file in the generated repository.
+
+### Phase 2, query and update animals table
+
+
 
 ## Built With
 

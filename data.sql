@@ -1,4 +1,5 @@
-/* Populate database with sample data. */
+-- Phase 1 create animals table
+
 INSERT INTO animals (
     name,
     date_of_birth,
@@ -34,3 +35,59 @@ INSERT INTO animals (
     weight_kg
   )
 VALUES ('Devimon', '05/12/2017', 5, TRUE, 11);
+
+-- Phase 2 update animals table
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Charmander', '02/08/2020', 0, FALSE, -11);
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Plantmon', '11/15/2022', 2, TRUE, -5.7);
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Squirtle', '04/02/1993', 3, FALSE, -12.13);
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Angemon', '06/12/2005', 1, TRUE, -45);
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Boarmon', '06/07/2005', 7, TRUE, 20.4);
+
+INSERT INTO animals (
+    name,
+    date_of_birth,
+    escape_attempts,
+    neutered,
+    weight_kg
+  )
+VALUES ('Blossom', '10/13/1998', 3, TRUE, 17);
