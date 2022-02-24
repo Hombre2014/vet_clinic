@@ -143,7 +143,8 @@ SELECT an.name AS animal, vet.name AS vet, v.date_of_visit
   -- Details for most recent visit: animal information, vet information, and date of visit.
 SELECT an.id AS animal_id, an.name AS animal, an.date_of_birth, vet.id AS vet_id, vet.name AS vet, vet.age AS vet_age, date_of_visit
   FROM visits v JOIN animals an ON an.id = v.animal_id
-  JOIN vets vet ON vet.id = v.vet_id;
+  JOIN vets vet ON vet.id = v.vet_id ORDER BY v.date_of_visit DESC
+  LIMIT 1;
 
 -- How many visits were with a vet that did not specialize in that animal's species?
 SELECT vet.name AS vet, COUNT(*) FROM visits vis JOIN vets vet 
