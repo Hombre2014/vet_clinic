@@ -16,8 +16,11 @@ Please, see all the requirements [here](https://github.com/microverseinc/curricu
 ### Phase 2, query and update animals table
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_query_update_tables.md)
 
-### Phase 3,  query multiple tables
+### Phase 3, query multiple tables
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_query_multiple_tables.md)
+
+### Phase 4, add "join table" for visits
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_join_table.md)
 
 ## Built With
 
