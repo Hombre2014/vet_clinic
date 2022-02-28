@@ -56,3 +56,23 @@ CREATE TABLE visits (
   FOREIGN KEY (animal_id) REFERENCES animals (id),
   FOREIGN KEY (vet_id) REFERENCES vets (id)
 );
+
+-- Phase 5 database performance audit
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- To decrease the first query time
+CREATE INDEX animal_visit ON visits(animal_id ASC);
+-- This one decreased the time for execution significantly
+
+-- To decrease the second query time
+-- The following index creation doesn't help.
+-- CREATE INDEX vet_id_visit ON visits(vet_id ASC);
+-- DROP INDEX vet_id_visit;
+
+-- This one reduced the time about 11%
+CREATE INDEX vet_visit ON visits(date_of_visit ASC);
+
+--  To decrease the third query:
+CREATE INDEX owner_indx ON owners(email ASC);
+-- This one decreased the time for execution significantly
