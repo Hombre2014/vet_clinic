@@ -22,7 +22,7 @@ Please, see all the requirements [here](https://github.com/microverseinc/curricu
 ### Phase 4, add "join table" for visits
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_join_table.md)
 
-### Phase 5, database performance audit
+### Phase 5, database performance audit pair programming
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_performance_audit.md)
 
 Query one before the optimization:</br>
@@ -79,6 +79,14 @@ N/A
 - GitHub: [@Hombre2014](https://github.com/Hombre2014)
 - Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
 - LinkedIn: [axebit](https://linkedin.com/in/axebit)
+
+From phase 5 onwards:
+
+👤 **Victoir Barh**
+
+- GitHub: [@vic778](https://github.com/vic778)
+- Twitter: [@VictoirBarh](https://twitter.com/VictoirBarh)
+- LinkedIn: [Victoir barherenduba](https://www.linkedin.com/in/victor-emmanuel-barh-a93900200/)
 
 ## 🤝 Contributing
 
