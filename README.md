@@ -22,6 +22,29 @@ Please, see all the requirements [here](https://github.com/microverseinc/curricu
 ### Phase 4, add "join table" for visits
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_join_table.md)
 
+### Phase 5, database performance audit
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_performance_audit.md)
+
+Query one before the optimization:</br>
+![Execution time](images/EA_1.JPG)
+</br>Query one after the optimization:</br>
+![Execution time](images/EA_1_opt.JPG)
+
+Query two before the optimization:</br>
+![Execution time](images/EA_2.JPG)
+</br>Query two after the optimization:</br>
+![Execution time](images/EA_2_opt.JPG)
+
+Query three before the optimization:</br>
+![Execution time](images/EA_3.JPG)
+</br>Query three after the optimization:</br>
+![Execution time](images/EA_3_opt.JPG)
+
+### Phase 6, add database schema diagram
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_diagram.md)
+
+![DB schema diagram](images/vet_clinic.drawio.png)
+
 ## Built With
 
 - Major languages: PostgreSQL
