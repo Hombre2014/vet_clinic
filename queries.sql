@@ -164,6 +164,5 @@ explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
 
 EXPLAIN ANALYSE SELECT COUNT(*) FROM visits where animal_id = 4;
 EXPLAIN ANALYSE SELECT * FROM visits where vet_id = 2;
--- EXPLAIN ANALYSE SELECT visit_id, animal_id, vet_id, date_of_visit FROM visits where vet_id = 2;
--- IF EXISTS(SELECT visit_id, animal_id, vet_id, date_of_visit FROM visits where vet_id = 2) PRINT 'YES';
+EXPLAIN ANALYSE SELECT visit_id, animal_id, vet_id, date_of_visit FROM visits where vet_id = 2; 
 EXPLAIN ANALYSE SELECT * FROM owners where email = 'owner_18327@mail.com';
