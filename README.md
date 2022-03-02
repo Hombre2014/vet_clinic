@@ -48,7 +48,7 @@ Please, see all the requirements [here](https://github.com/microverseinc/curricu
 ### Phase 7, schema based on diagram
 Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/database_from_diagram.md)
 
-![Diagram](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/images/clinic_diagram.png)
+[Diagram](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/images/clinic_diagram.png)
 
 ## Built With
 
