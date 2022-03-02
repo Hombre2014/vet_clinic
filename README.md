@@ -11,31 +11,44 @@ In this project you will use a relational database to create the initial data st
 ## Requirements:
 
 ### Phase 1, create animals table
-- [ ] Use [this template](https://github.com/microverseinc/curriculum-template-databases) to generate your repo.
-- [ ] Create a database named `vet_clinic`.
-- [ ] Create a table named `animals` with the following columns:
-  - [ ] `id`: integer
-  - [ ] `name`: string
-  - [ ] `date_of_birth`: date
-  - [ ] `escape_attempts`: integer
-  - [ ] `neutered`: boolean
-  - [ ] `weight_kg`: decimal
-- [ ] Copy the SQL you used in the previous point into the `schema.sql` file in the generated repository.
-- [ ] Insert the following data:
-  - [ ] Animal: His name is Agumon. He was born on Feb 3rd, 2020, and currently weighs 10.23kg. He was neutered and he has never tried to escape.
-  - [ ] Animal: Her name is Gabumon. She was born on Nov 15th, 2018, and currently weighs 8kg. She is neutered and she has tried to escape 2 times.
-  - [ ] Animal: His name is Pikachu. He was born on Jan 7th, 2021, and currently weighs 15.04kg. He was not neutered and he has tried to escape once.
-  - [ ] Animal: Her name is Devimon. She was born on May 12th, 2017, and currently weighs 11kg. She is neutered and she has tried to escape 5 times.
-- [ ] Copy the SQL you used in the previous point into the data.sql file in the generated repository.
-- [ ] Write queries for the following:
-  - [ ] Find all animals whose name ends in "mon".
-  - [ ] List the name of all animals born between 2016 and 2019.
-  - [ ] List the name of all animals that are neutered and have less than 3 escape attempts.
-  - [ ] List date of birth of all animals named either "Agumon" or "Pikachu".
-  - [ ] List name and escape attempts of animals that weigh more than 10.5kg
-  - [ ] Find all animals that are neutered.
-  - [ ] Find all animals not named Gabumon.
-  - [ ] Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_create_tables.md)
+
+### Phase 2, query and update animals table
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_query_update_tables.md)
+
+### Phase 3, query multiple tables
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_query_multiple_tables.md)
+
+### Phase 4, add "join table" for visits
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_join_table.md)
+
+### Phase 5, database performance audit pair programming
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_performance_audit.md)
+
+Query one before the optimization:</br>
+![Execution time](images/EA_1.JPG)
+</br>Query one after the optimization:</br>
+![Execution time](images/EA_1_opt.JPG)
+
+Query two before the optimization:</br>
+![Execution time](images/EA_2.JPG)
+</br>Query two after the optimization:</br>
+![Execution time](images/EA_2_opt.JPG)
+
+Query three before the optimization:</br>
+![Execution time](images/EA_3.JPG)
+</br>Query three after the optimization:</br>
+![Execution time](images/EA_3_opt.JPG)
+
+### Phase 6, add database schema diagram
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/vet_clinic_diagram.md)
+
+![DB schema diagram](images/vet_clinic.drawio.png)
+
+### Phase 7, schema based on diagram
+Please, see all the requirements [here](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/database_from_diagram.md)
+
+[Diagram](https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/images/clinic_diagram.png)
 
 ## Built With
 
@@ -71,6 +84,14 @@ N/A
 - GitHub: [@Hombre2014](https://github.com/Hombre2014)
 - Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
 - LinkedIn: [axebit](https://linkedin.com/in/axebit)
+
+From phase 5 onwards:
+
+👤 **Victoir Barh**
+
+- GitHub: [@vic778](https://github.com/vic778)
+- Twitter: [@VictoirBarh](https://twitter.com/VictoirBarh)
+- LinkedIn: [Victoir barherenduba](https://www.linkedin.com/in/victor-emmanuel-barh-a93900200/)
 
 ## 🤝 Contributing
 
